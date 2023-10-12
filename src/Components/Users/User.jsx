@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 
 const User = ({user}) => {
     const {username, email, id} =user;
+
     const useNaveget = useNavigate();
     const handleShow =()=>{
      
